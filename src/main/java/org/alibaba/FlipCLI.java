@@ -13,7 +13,7 @@ import java.util.List;
 
 public class FlipCLI {
     public static final String DEFAULT_SOURCE_FILE_PATH = "/usr/share/dict/linux.words";
-    public static final String DEFAULT_GRAPH_FILE_PATH = "/usr/share/dict/linux.words.graph";
+    public static final String DEFAULT_GRAPH_FILE_PATH = "/tmp/linux.words.graph";
     private static final String HELP_OPT = "-h";
     private static final String HELP_LONG_OPT = "--help";
 

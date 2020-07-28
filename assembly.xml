@@ -6,11 +6,13 @@
     <formats>
         <format>tar.gz</format>
     </formats>
-    <includeBaseDirectory>false</includeBaseDirectory>
+    <includeBaseDirectory>true</includeBaseDirectory>
     <fileSets>
         <fileSet>
             <directory>src/main/bin</directory>
             <outputDirectory>bin/</outputDirectory>
+            <directoryMode>0755</directoryMode>
+            <fileMode>0755</fileMode>
         </fileSet>
         <fileSet>
             <directory>src/main/resources</directory>

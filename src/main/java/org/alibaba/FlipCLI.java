@@ -109,9 +109,9 @@ public class FlipCLI {
                 }
                 List<String> flipPath = wordGraph.getFlipPath(fromWord, toWord);
                 if (flipPath == null) {
-                    System.out.println("There is no flip path from a to B!");
+                    System.out.println("There is no flip path from " + fromWord + " to " + toWord + "!");
                 } else {
-                    System.out.println("The shortest flip path from a to B:");
+                    System.out.println("The shortest flip path from " + fromWord + " to " + toWord + ":");
                     System.out.println(flipPath);
                 }
                 break;
